@@ -3,7 +3,7 @@ class Iir < Formula
   url "https://github.com/berndporr/iir1/archive/1.8.1.zip"
   homepage "https://github.com/berndporr/iir1"
   depends_on "cmake" => :build
-  # sha256 "6d150de04cef4dcd9914819a7947c52e54b33de0bd5777adad4067bcadbf4430"
+  sha256 "e5f57fbb8fd8181febbedd9de88407e61a6f0f1b476866dd32dab0c728b817d4"
 
   def install
     system "cmake", ".", *std_cmake_args
